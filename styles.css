@@ -1,0 +1,132 @@
+:root {
+ --font-color1: black;
+ --font-color2: white;
+ --background-color0: #CBAB84;
+ --background-color1: #C28F3C;
+ --background-color2: #944E13;
+ --background-color3: #682F04;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+  body {
+    margin-top: 0;
+    font-family: Poppins;
+    background-color: var(--background-color0);
+    color: var(--font-color1);
+
+  }
+/* #NAVBAR */
+  #navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    position: fixed;
+    width: 100%;
+    padding: 1rem;
+    color: var(--font-color2);
+    background-color: var(--background-color3);
+    border-bottom: 0.5px solid var(--font-color2);
+  }
+
+  .nav-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  #mug {
+    margin-right: 1rem;
+  }
+
+  .nav-link {
+    padding: 1rem;
+    align-items: center;
+    color: var(--font-color2);
+  }
+
+  .nav-link:hover {
+    background-color: var(--background-color2);
+  }
+  /* #MAIN */
+  #main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin: auto 6rem;
+    padding: 2rem;
+  }
+
+  #title {
+    font-family: Raleway;
+    font-size: 3rem;
+  }
+  
+  #image {
+    margin-top: 5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0.25rem  0.25rem 1.25rem  0.25rem var(--background-color3);
+
+  }
+  
+  #img-caption {
+    color: var(--background-color3);
+  }
+  
+  #about {
+    text-align: center;
+    min-width: 450px;
+  }
+  
+  
+  #tribute-info > h2 {
+    text-align: center;
+  }
+
+  .img-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    margin-top: 2rem;
+    align-content: center;
+    justify-items: center;
+  }
+
+  .robusta-img, .arabica-img {
+    width: 280px;
+  }
+
+  .robusta-desc, .arabica-desc {
+    padding: 1rem;
+    max-width: 295px;
+    text-align: center;
+  }
+
+  .robusta-capt, .arabica-capt {
+    color: var(--background-color3)
+  }
+  
+  .bold {
+    font-weight: 600;
+  }
+
+  
+  a {
+    text-decoration: none;
+    color: var(--font-color1);
+  }
+
+  h2 {
+    padding: 1rem;
+  }
