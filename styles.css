@@ -83,22 +83,24 @@ html {
   #img-caption {
     color: var(--background-color3);
   }
+
+  #coffee-info {
+    text-align: center;
+  }
   
   #about {
-    text-align: center;
-    min-width: 450px;
+    display: flex;
+    flex-wrap: wrap;
   }
   
   
-  #tribute-info > h2 {
-    text-align: center;
-  }
 
   .img-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 2rem;
     margin-top: 2rem;
+    padding: 0rem 8rem;
     align-content: center;
     justify-items: center;
   }
@@ -129,4 +131,5 @@ html {
 
   h2 {
     padding: 1rem;
+    color: var(--background-color3);
   }
